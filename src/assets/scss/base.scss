@@ -1,0 +1,14 @@
+@use "variables";
+@import "./header.scss";
+@import "./product.scss";
+
+.text-green {
+  color: variables.$textGreen;
+}
+.scale-75 {
+  transform: scale(75%);
+}
+
+a {
+  text-decoration: none !important;
+}
