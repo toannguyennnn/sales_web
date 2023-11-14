@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="bg-light">
     <div class="position-relative overflow-hidden mb-md-3 text-center bg-light">
       <div class="row align-items-center">
         <div class="col-9 position-relative z-3">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div class="text-bg-dark text-center overflow-hidden rounded-4">
+      <div class="text-center overflow-hidden rounded-4">
         <div class="my-3">
           <h2 class="display-5">Be Natural</h2>
           <p class="lead">Nature is the best for your health</p>
@@ -108,17 +108,18 @@
           <p class="lead">And an even wittier subheading.</p>
         </div>
         <div
-          class="bg-dark shadow-sm mx-auto"
+          class="bg-body shadow-sm mx-auto card-2-img border"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"></div>
       </div>
+
       <div
-        class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 py-3">
-          <h2 class="display-5">Another headlined</h2>
+          <h2 class="display-5">Another headlined ádsd</h2>
           <p class="lead">And an even wittier subheading.</p>
         </div>
         <div
-          class="bg-light shadow-sm mx-auto"
+          class="bg-body shadow-sm mx-auto card-3-img border"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"></div>
       </div>
     </div>
@@ -170,6 +171,126 @@
           <div class="land-1 land-1-section-3 position-absolute"></div>
           <div class="land-2 land-2-section-3 position-absolute"></div>
         </div>
+
+        <div class="flower position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute shadow"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-2 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-3 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-4 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-5 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-6 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-7 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
+
+        <div class="flower flower-8 position-relative">
+          <div class="flower-trunk position-absolute shadow">
+            <div class="stament position-absolute">
+              <div class="petal position-absolute"></div>
+              <div class="petal petal-2 position-absolute shadow"></div>
+              <div class="petal petal-3 position-absolute shadow"></div>
+              <div class="petal petal-4 position-absolute shadow"></div>
+              <div class="petal petal-5 position-absolute shadow"></div>
+              <div class="petal petal-6 position-absolute shadow"></div>
+            </div>
+          </div>
+
+          <div class="leaf"></div>
+        </div>
       </div>
 
       <div
@@ -179,7 +300,7 @@
           <p class="lead">And an even wittier subheading.</p>
         </div>
         <div
-          class="bg-body shadow-sm mx-auto"
+          class="bg-body shadow-sm mx-auto card-4-img border"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"></div>
       </div>
     </div>
@@ -192,7 +313,7 @@
           <p class="lead">And an even wittier subheading.</p>
         </div>
         <div
-          class="bg-body shadow-sm mx-auto"
+          class="bg-body shadow-sm mx-auto card-5-img"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"></div>
       </div>
       <div
@@ -202,7 +323,7 @@
           <p class="lead">And an even wittier subheading.</p>
         </div>
         <div
-          class="bg-body shadow-sm mx-auto"
+          class="bg-body shadow-sm mx-auto card-6-img"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"></div>
       </div>
     </div>
@@ -217,4 +338,30 @@
   background-position: center;
   background-size: cover;
 }
+.card-2-img {
+  background-image: url("../assets/img/p1.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-3-img {
+  background-image: url("../assets/img/p1.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-4-img {
+  background-image: url("../assets/img/p1.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-5-img {
+  background-image: url("../assets/img/p1.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-6-img {
+  background-image: url("../assets/img/p1.png");
+  background-position: center;
+  background-size: cover;
+}
+
 </style>
