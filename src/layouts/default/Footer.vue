@@ -1,7 +1,7 @@
 <template>
-  <footer class="container py-5">
+  <footer class="container py-5 position-relative overflow-hidden my-0">
     <div class="row">
-      <div class="col-12 col-md">
+      <div class="col-12 col-md z-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -21,7 +21,7 @@
         </svg>
         <small class="d-block mb-3 text-muted">&copy; 2017–2023</small>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-6 col-md z-1">
         <h5>Features</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Cool stuff</a></li>
@@ -32,7 +32,7 @@
           <li><a class="link-secondary" href="#">Last time</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-6 col-md z-1">
         <h5>Resources</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Resource name</a></li>
@@ -41,7 +41,7 @@
           <li><a class="link-secondary" href="#">Final resource</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-6 col-md z-1">
         <h5>Resources</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Business</a></li>
@@ -50,7 +50,7 @@
           <li><a class="link-secondary" href="#">Gaming</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-6 col-md z-1">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary" href="#">Team</a></li>
@@ -58,6 +58,13 @@
           <li><a class="link-secondary" href="#">Privacy</a></li>
           <li><a class="link-secondary" href="#">Terms</a></li>
         </ul>
+      </div>
+
+      <div class="land-wrapper land-wrapper-footer position-absolute bottom-0 w-100">
+        <div class="land position-relative">
+          <div class="land-1 land-1-footer position-absolute"></div>
+          <div class="land-2 land-2-footer position-absolute"></div>
+        </div>
       </div>
     </div>
   </footer>

@@ -1,19 +1,6 @@
 @use "variables";
 // @use "sass:math";
 
-@keyframes slide {
-  from {
-    transform: rotate(0);
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-    from {
-      transform: rotate(70deg);
-    }
-  }
-}
-
 @keyframes slideIn {
   from {
     transform: translateX(100px);
@@ -34,54 +21,12 @@
   }
 }
 
-.product-device {
-  position: absolute;
-  bottom: -30%;
-  width: 200px;
-  height: 540px;
-  background-color: rgba(1, 255, 128, 0.3);
-  border-radius: 21px;
-  transform: rotate(60deg);
-  animation: slide 0.5s linear;
+.section1-text {
+  top: 40%;
 }
-
-.product-device-2 {
-  top: 25%;
-  transform: rotate(40deg);
-  background-color: rgba(1, 255, 128, 0.5);
-}
-
-.product-device-3 {
-  top: 15%;
-  left: -5%;
-  background-color: rgba(1, 255, 128, 0.7);
-  transform: rotate(25deg);
-}
-.product-device-4 {
-  top: 5%;
-  left: -10%;
-  background-color: rgba(1, 255, 128, 0.8);
-  transform: rotate(05deg);
-}
-
-/*
-     * Extra utilities
-     */
-
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
-}
-
-///
-///
-
 .cloud {
-  top: -45%;
+  top: 0%;
+  left: 38%;
   scale: 0.8;
   animation: slideDown 0.5s linear;
 
@@ -117,13 +62,22 @@
 }
 
 .cloud-2 {
-  left: 30%;
-  top: -60%;
+  left: 50%;
+  top: 15px;
 }
 
+// .cloud-section-3 {
+
+//   left: 0;
+// }
+// .cloud-2-section-3 {
+
+//   left: 50%;
+// }
+
 .tree {
-  bottom: 0;
-  left: 70%;
+  bottom: 80px;
+  left: 78%;
   scale: 0.8;
   animation: slideIn 0.5s linear;
   .trunk {
@@ -199,59 +153,58 @@
   }
 }
 
-.land {
-  background-color: #37deff;
-  top: 20px;
+.land-wrapper {
+  height: 100px;
   .land-1 {
     background-color: rgb(169, 231, 110);
-    top: -86px;
+    top: -80px;
+    left: -240px;
     border-radius: 50%;
-    left: -138px;
-    width: 98%;
-    height: 205px;
+    width: 100%;
+    height: 150px;
   }
 
   .land-2 {
     background-color: #a1e449;
     top: -20px;
     border-radius: 50%;
-    left: -80px;
+    left: -200px;
     width: 150%;
-    height: 100px;
+    height: 120px;
   }
 }
 
-.card-2-text {
-  width: 300px;
-  top: 25%;
-}
-
-.cloud-section-3 {
-  top: -10%;
-  left: 100px;
-}
-.cloud-2-section-3 {
-  top: -30%;
-  left: 250px;
-}
-.land {
-  .land-1-section-3 {
-    top: 68px;
-    left: -170px;
-    width: 880px;
+.section-3 {
+  .land {
+    .land-1-section-3 {
+      left: -50px;
+      width: 120%;
+      height: 300px;
+      background-color: rgb(120, 233, 135);
+      border-radius: 34%;
+    }
+    .land-2-section-3 {
+      height: 300px;
+      background-color: rgb(71, 223, 91);
+    }
   }
-  .land-2-section-3 {
-    top: 142px;
+
+  .section-3-text{
+    right: 0;
+    top: 35%;
+    width: 40%;
   }
 }
 
 .sun {
+  top: 40px;
+  left: 10%;
+  animation: slideDown 0.5s linear;
   .sun-circle {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: rgb(245, 248, 80);
-    top: -220px;
     left: 40px;
   }
 
@@ -290,10 +243,14 @@
   }
 }
 
+.flower-wrapper {
+  bottom: 250px;
+  left: 45%;
+}
+
 .flower {
   .flower-trunk {
     left: 50%;
-
     width: 8px;
     height: 150px;
     background-color: rgb(199, 157, 18);
@@ -343,37 +300,39 @@
   }
 }
 
-.flower-2 {
+.flower-wrapper-2 {
   scale: 0.7;
-  left: 20%;
-}
-
-.flower-3 {
-  scale: 0.85;
-  left: 30%;
-}
-
-.flower-4 {
-  scale: 0.3;
-  left: -50%;
-  top: 70px;
-}
-.flower-5 {
-  scale: 0.3;
-  left: -45%;
-  top: 70px;
-}
-.flower-6 {
-  scale: 1.5;
-  left: 50%;
-}
-.flower-7 {
-  top: 35px;
-  scale: 0.65;
-  left: 14%;
-}
-.flower-8 {
-  top: 80px;
-  // scale: 0.6;
   left: 40%;
+  bottom: 220px;
+}
+
+.flower-wrapper-3 {
+  scale: 0.85;
+  left: 20%;
+  bottom: 220px;
+}
+
+.flower-wrapper-4 {
+  scale: 0.3;
+  left: 35%;
+  bottom: 180px;
+}
+.flower-wrapper-5 {
+  scale: 0.3;
+  left: 30%;
+  bottom: 170px;
+}
+.flower-wrapper-6 {
+  scale: 1.5;
+  left: 70px;
+  bottom: 295px;
+}
+.flower-wrapper-7 {
+  bottom: 160px;
+  scale: 0.65;
+  left: 25px;
+}
+.flower-wrapper-8 {
+  bottom: 220px;
+  left: 100px;
 }
